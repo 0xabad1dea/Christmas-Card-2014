@@ -1,0 +1,54 @@
+#TITLE		"SSL Smiley Song :-)"
+#COMPOSER	"Melissa Elliott"
+#PROGRAMER	"2014 0xabad1dea"
+#MAKER		"2014 0xabad1dea"
+
+; the envelope names are non-contiguous because they're a subset of my personal library
+@v1 = { 15 15 14 14 13 13 12 12 11 11 10 10 9 9 8 8 7 7 6 6 }
+@v9 = {14 7 3 4 2 1 1 1 1 1 1 0}
+@v26 = { 15 15 15 15 15 15 14 14 14 14 14 13 13 12 11 10 10 9  8  7  6 7 8 9 10 11 12 13 }
+@v27 = { 15 15 14 14 14 14 14 13 13 13 14 14 15 }
+@MP0 = { 8 2 1 }
+
+ABCDE	t120
+
+A L o3 @2 @v26 ENOF MP0
+A d8 d8 e8 d8 d4. d8	d8 d8 e8 e8 a4. e8
+A e8 e8 a8 a8 a4. a8	a8 a8 >d8 d8 d4.< d8
+A d8 d8 e8 d8 d4. d8	d8 d8 e8 e8 a4. e8
+A e8 e8 a8 a8 a4. a8	d8 d8 g8 g8 g4. b8
+A o4 ;chorus
+A d8 d8 d4 d8 d8 d4		d8 <b8 a8> c8 d4 d4 
+A g8 g8 g8 g8 g8 g8 g8 g8		d8 d8 d8 d8 d4 a4
+A d8 d8 d4 d8 d8 d4		d8 <b8 a8> c8 d4 d4
+A g8 g8 g8 g8 d8 d8 d8 d8		c8 c8 c8 c8 c4 c4
+
+
+B L o3 @2 @v1 ENOF
+B d8 b8 a8 g8 d4. d8	d8 b8 a16 a16 g8 e4. e8
+B e8 >c8< b8 a8 >d4. d8<	>e8 d8 c8 <a16 a16 b4. d8> o4
+B d8 b8 a8 g8 d4. d8	d8 b8 a16 a16 g8 e4. e8
+B e8 >c8< b8 a8 >d8 d8 d8 d8<	>e8 d8 c8< a8 g4 >d4<
+; chorus
+B b8 b8 b4 b8 b8 b8 b8		b8 >d8< g8 a8 b4 b4
+B >c8 c16 c16 c8 c8 c8< b8 b8 b8	b8 a8 a8 b8 a4 >d4<
+B b8 b8 b8 b8 b8 b8 b8 b8		b8 >d8< g8 a8 b4 b4
+B >c8 c8 c8 c8 c8< b8 b8 b8		>d8 d8 c8< a8 g4 @v27 g4
+
+
+C L ENOF o3 q6 EPOF MP0 
+C d8 d8 e8 d8 d4. d8	d8 d8 e8 e8 a4. e8
+C e8 e8 a8 a8 a4. a8	d8 d8 e8 d8 d4. d8
+C d8 d8 e8 d8 d4. d8	d8 d8 e8 e8 a4. e8
+C e8 e8 a8 a8 a4. a8	d8 d8 e8 d8 d4. d8
+C ; chorus
+C g8 f+8 e8 d8 g8 <a8> c8 e8	g8 f+8 e8 d8 c8 c8 <b8 a8>
+C c8 c8 <b8 a8> d8 d8 e8 d8		d8 d8 e8 d8 g8 f+8 e8 d8
+C g8 f+8 e8 d8 g8 <a8> c8 e8	g8 f+8 e8 d8 c8 c8 <b8 a8>
+C c8 c8 <b8 a8> d8 d8 e8 d8		d8 d8 e8 d8 g8 f+8 e8 d8
+
+
+D L l4 @v9
+D [g4 g8 g8 g4 g8 b16 b16]16
+
+
